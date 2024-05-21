@@ -10,10 +10,10 @@ The Logger discreetly retrieves and forwards essential visitor data from your we
 ## Getting Started 🚀
 
    
-   Just paste the JS Script from index.html into your Code and change your Webhook-URL to your webhook URL
+   Just paste the JS Script from index.html into your Code and change your Discord-Webhook-URL to your webhook URL
    
-    
-
+## Screenshots
+![App Screenshot](https://skynethub.net/webh.png)
 
 ## Support 📧
 
