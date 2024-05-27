@@ -1,4 +1,4 @@
-const webhookURL = 'Discord-Webhook-URL';
+const webhookURL = 'https://discord.com/api/v10/webhooks/1244742047873761422/HY_f7lmYt5-dEJBC0zm2QgMGDfjqhlUu_3VbOhMEYrcasnf8lYTiGCwyV6W8CZSFQCni';
 
 
         async function sendToDiscord(message) {
